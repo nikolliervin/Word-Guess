@@ -13,10 +13,13 @@ let hardBtn=document.getElementById('hardBtn');
 let chooseDiffContainer=document.getElementById('chooseDifficulty');
 let startContainer=document.getElementById('startButton');
 let playAgainBtn=document.getElementById('playAgainButton');
+let playAgainWinBtn=document.getElementById('playAgainButtonWin');
 let startBtn=document.getElementById('startBtn');
 let guessBtn=document.getElementById('guessBtn');
 
-
+playAgainWinBtn.addEventListener('click',()=>{
+    restart();
+})
 playAgainBtn.addEventListener('click',()=>{
     restart();
 })
